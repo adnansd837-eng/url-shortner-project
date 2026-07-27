@@ -1,4 +1,4 @@
-# ⚡ SwiftLink - Smart URL Shortener & Click Analytics Dashboard
+# ⚡ SwiftLink - Smart URL Shortener & Click Analytics Dashboard and Timer
 
 SwiftLink is a premium, high-fidelity URL shortener application. It is designed with a modern, dark-mode glassmorphic user interface and includes powerful link management tools, live click analytics logs, custom aliases, auto-expiration, and dynamic QR Code generation.
 
