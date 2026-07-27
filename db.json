@@ -1,0 +1,30 @@
+{
+  "urls": [
+    {
+      "code": "46Wf84",
+      "longUrl": "https://www.trainwithshubham.com/t/u/activeCourses",
+      "customAlias": null,
+      "createdAt": "2026-07-27T13:19:07.389Z",
+      "expiresAt": "2026-08-27T08:52:00.000Z",
+      "clicks": 1,
+      "isActive": true,
+      "clicksHistory": [
+        {
+          "timestamp": "2026-07-27T13:19:24.819Z",
+          "ip": "::1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "code": "wwwtrainwithshubhamcom75",
+      "longUrl": "https://www.trainwithshubham.com/t/u/activeCourses",
+      "customAlias": "wwwtrainwithshubhamcom75",
+      "createdAt": "2026-07-27T13:20:37.973Z",
+      "expiresAt": "2027-02-27T08:32:00.000Z",
+      "clicks": 0,
+      "isActive": true,
+      "clicksHistory": []
+    }
+  ]
+}
