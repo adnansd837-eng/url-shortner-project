@@ -2,8 +2,7 @@ name: Build and Push to Docker Hub
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   build-and-push:
@@ -17,3 +16,8 @@ jobs:
         with:
           username: ${{ vars.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build and push
+        uses: docker/build-push-action@v
+        with:
+          push: true
+          tags: ${{ vars.DOCKER_USERNAME }}/frontend:latest
