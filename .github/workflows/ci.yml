@@ -21,7 +21,7 @@ jobs:
           cache-dependency-path: './package-lock.json'
 
       - name: install npm package
-        run: npm ci
+        run: npm install
         working-directory: ./
 
       - name: Run linter
