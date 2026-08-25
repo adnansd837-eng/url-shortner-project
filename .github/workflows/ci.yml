@@ -13,6 +13,26 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v7
 
+      - name: setup Node.job
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: 'frontend/package-lock.json'
+
+      - name: install npm package
+        run: npm install --force
+        working-directory: ./
+
+      - name: run linter
+        run: npm run lint
+        working-directory: ./
+      
+      - name: run test
+        run: npm run test
+        working-directory: ./
+
+
       - name: docker setup login
         uses: docker/login-action@v4
         with:
