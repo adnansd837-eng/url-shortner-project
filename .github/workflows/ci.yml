@@ -16,12 +16,12 @@ jobs:
       - name: setup Node.job
         uses: actions/setup-node@v6
         with:
-          node-version: '24'
+          node-version: '20'
           cache: npm
           cache-dependency-path: './package-lock.json'
 
       - name: install npm package
-        run: npm install --force
+        run: npm ci
         working-directory: ./
 
       - name: run linter
